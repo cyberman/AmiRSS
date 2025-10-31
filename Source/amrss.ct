@@ -1,0 +1,1320 @@
+## version $VER: XX.catalog XX.XX (XX.XX.XX)
+## codeset X
+## language X
+;
+MSG_Error_ReqTitle
+
+; amrss error
+;
+MSG_Error_ReqGadget
+
+; *_OK
+;
+MSG_Error_NoMem
+
+; Not enogh memory available.
+;
+MSG_Error_NoLocale
+
+; Can't open locale.library ver 37 or higher:\namrss needs MorphOS 1.45 or higher.
+;
+MSG_Error_NoMUIMaster
+
+; Can't open muimaster.library ver 20.5341 or higher:\ndid you think such a jewel could be based on\nsomething else than MUI 4?!?
+;
+MSG_Error_NoVTK
+
+; [Available error]
+;
+MSG_Error_NoUtility
+
+; Can't open utility.library ver 37 or higher:\namrss needs MorphOS 1.45 or higher.
+;
+MSG_Error_NoGfx
+
+; Can't open graphics.library ver 37 or higher:\namrss needs MorphOS 1.45 or higher.
+;
+MSG_Error_DataTypes
+
+; Can't open datatypes.library ver 37 or higher:\namrss needs MorphOS 1.45 or higher.
+;
+MSG_Error_NoIFFParse
+
+; Can't open iffparse.library ver 37 or higher:\namrss needs MorphOS 1.45 or higher.
+;
+MSG_Error_NoRexxSysBase
+
+; Can't open rexxsyslib.library ver 36 or higher:\nplease, install ARexx in your system.
+;
+MSG_Error_Icon
+
+; Can't open icon.library ver 37 or higher:\namrss needs MorphOS 1.45 or higher.
+;
+MSG_Error_NoCodesets
+
+; Can't open codesets.library ver 4 or higher:\nyou didn't use amrss installer, did you?
+;
+MSG_Error_Expat
+
+; Can't open expat.library ver 4 or higher:\nyou didn't use amrss installer, did you?
+;
+MSG_Error_NoLoc
+
+; Can't open default locale; please launch your locale\npreferences application and set a default locale.
+;
+MSG_Error_NoAppClass
+
+; Can't create Application.mui subclass (app).
+;
+MSG_Error_NoWinClass
+
+; Can't create Window.mui subclass (win).
+;
+MSG_Error_NoRootScrollgroupClass
+
+; Can't create Scrollgroup.mui subclass (rootScrollgroup).
+;
+MSG_Error_NoRootStringClass
+
+; Can't create Textinput.mcc subclass (rootString).
+;
+MSG_Error_NoRootBarClass
+
+; Can't create TheBar.mcc subclass (rootBar).
+;
+MSG_Error_NoGroupClass
+
+; Can't create Group.mui subclass (group).
+;
+MSG_Error_NoNewsClass
+
+; Can't create List.mcc subclass (entriesList).
+;
+MSG_Error_NoGrouplistClass
+
+; Can't create NListtree.mcc subclass (grouplist).
+;
+MSG_Error_NoHTMLClass
+
+; Can't create HTMLview.mcc subclass (HTML).
+;
+MSG_Error_NoPicClass
+
+; Can't create Area.mui subclass (pic).
+;
+MSG_Error_CantCreateDirs
+
+; Can't create amrss directories.
+;
+MSG_Error_NoApp
+
+; Can't create application.
+;
+MSG_Error_NoWin
+
+; Can't open amrss window.
+;
+MSG_Error_NoSocket
+
+; Can't create a TCP socket.
+;
+MSG_Error_NoHost
+
+; Can't resolve host.
+;
+MSG_Error_CantConnect
+
+; Can't connet to host.
+;
+MSG_Error_Send
+
+; Error sending.
+;
+MSG_Error_Recv
+
+; Error receiving.
+;
+MSG_Error_ProtoError
+
+; Protocol error.
+;
+MSG_Error_ServerError
+
+; Server problem
+;
+MSG_Error_InvalidURL
+
+; URL format not valid.
+;
+MSG_Error_Aborted
+
+; Interrupted.
+;
+MSG_Error_NoSocketBase
+
+; Can't open bsdsocket.library ver 4 or higher.
+;
+MSG_Group_UnknownEncoding
+
+; Unknown encoding %s
+;
+MSG_Group_CantParseXML
+
+; Can't parse XML data (error %ld in line %ld: %s)
+;
+MSG_Group_Date_DSHMS
+
+; Date: %1$s %2$s (%3$ld days, %4$ldh, %5$ldm and %6$lds ago)  -  News: %7$ld
+;
+MSG_Group_Date_DHMS
+
+; Date: %1$s %2$s (%3$ld day, %4$ldh, %5$ldm and %6$lds ago)  -  News: %7$ld
+;
+MSG_Group_Date_HMS
+
+; Date: %1$s %2$s (%3$ldh, %4$ldm and %5$lds ago)  -  News: %6$ld
+;
+MSG_Group_Date_Now
+
+; Date: %1$s %2$s  -  News: %3$ld
+;
+MSG_Status_ResolvingHost
+
+; Resolving host...
+;
+MSG_Status_Connecting
+
+; Connecting to host...
+;
+MSG_Status_Sending
+
+; Sending request...
+;
+MSG_Status_Receiving
+
+; Receiving...
+;
+MSG_Status_Done
+
+; Done.
+;
+MSG_Status_ReadingFeed
+
+; Reading feed...
+;
+MSG_Status_Updating
+
+; Updating feeds...
+;
+MSG_Status_Updated
+
+; Feeds updated.
+;
+MSG_Status_ReadingFeeds
+
+; Reading feeds...
+;
+MSG_Status_ReadingGroup
+
+; Reading group...
+;
+MSG_Status_GroupRead
+
+; Group read.
+;
+MSG_App_Copyright
+
+; Copyright 2004-2005 by Alfonso Ranieri
+;
+MSG_App_Description
+
+; Amiga RSS client by Alfonso Ranieri
+;
+MSG_Menu_Project
+
+; Project
+;
+MSG_Menu_About
+
+; ?\0About...
+;
+MSG_Menu_AboutMUI
+
+; !\0About MUI...
+;
+MSG_Menu_Hide
+
+; H\0Hide
+;
+MSG_Menu_Quit
+
+; Q\0Quit
+;
+MSG_Menu_Feeds
+
+; Feeds
+;
+MSG_Menu_AddGroup
+
+; G\0Add group...
+;
+MSG_Menu_AddFeed
+
+; A\0Add feed...
+;
+MSG_Menu_EditFeed
+
+; E\0Edit...
+;
+MSG_Menu_Remove
+
+; R\0Remove
+;
+MSG_Menu_LastSaved
+
+; L\0Last saved
+;
+MSG_Menu_NoDragDrop
+
+; T\0No drag & drop
+;
+MSG_Menu_EditFeeds
+
+; W\0View feeds...
+;
+MSG_Menu_Settings
+
+; Settings
+;
+MSG_Menu_EditPrefs
+
+; P\0Edit...
+;
+MSG_Menu_LastSavedPrefs
+
+; D\0Last saved
+;
+MSG_Menu_Snapshot
+
+; B\0Snapshot window
+;
+MSG_Menu_UnSnapshot
+
+; N\0Unsnapshot window
+;
+MSG_Menu_Help
+
+; 1\0Help
+;
+MSG_Menu_MUI
+
+; M\0MUI...
+;
+MSG_Menu_QuickQuit
+
+; Z\0Quick quit
+;
+MSG_Menu_NoAutoUpdate
+
+; J\0No Auto update
+;
+MSG_Menu_UpdateAll
+
+; U\0Update
+;
+MSG_Menu_FlushCookies
+
+; 8\0Flush cookies
+;
+MSG_Menu_FlushImages
+
+; 7\0Flush images
+;
+MSG_Menu_HideGroups
+
+; 5\0Hide feeds
+;
+MSG_Menu_ScreenMode
+
+; 9\0ScreenMode...
+;
+MSG_Menu_SaveFeeds
+
+; F\0Save feeds
+;
+MSG_Menu_HideBar
+
+; 4\0Hide bar
+;
+MSG_Menu_HidePreview
+
+; 6\0Hide preview
+;
+MSG_Menu_NewsPage
+
+; 2\0News Page
+;
+MSG_Menu_HTMLPage
+
+; 3\0HTML Page
+;
+MSG_Win_Title
+
+; amrss (%s)
+;
+MSG_Gad_Add
+
+; _Add
+;
+MSG_Gad_AddHelp
+
+; Add a new feed.
+;
+MSG_Gad_Edit
+
+; _Edit
+;
+MSG_Gad_EditHelp
+
+; Edit the selected entry.
+;
+MSG_Gad_Remove
+
+; _Remove
+;
+MSG_Gad_RemoveHelp
+
+; Remove the selected entry.
+;
+MSG_Gad_Feed
+
+; _Update
+;
+MSG_Gad_FeedHelp
+
+; Update the selected feed.
+;
+MSG_Gad_Stop
+
+; _Stop
+;
+MSG_Gad_StopHelp
+
+; Stop active connections.
+;
+MSG_Gad_Search
+
+; Sear_ch
+;
+MSG_Gad_SearchHelp
+
+; Open the search window.
+;
+MSG_Gad_Main
+
+; _News
+;
+MSG_Gad_MainHelp
+
+; Switch to news page.
+;
+MSG_Gad_HTML
+
+; _HTML
+;
+MSG_Gad_HTMLHelp
+
+; Switch to HTML page.
+;
+MSG_Gad_Prefs
+
+; _Prefs
+;
+MSG_Gad_PrefsHelp
+
+; Open the preferences window.
+;
+MSG_Gad_Back
+
+; _Back
+;
+MSG_Gad_BackHelp
+
+; Go to the previous visited page.
+;
+MSG_Gad_Next
+
+; S_ucc
+;
+MSG_Gad_NextHelp
+
+; Go to the next visited page.
+;
+MSG_Gad_Reload
+
+; Re_load
+;
+MSG_Gad_ReloadHelp
+
+; Reload the current page.
+;
+MSG_Gad_URL
+
+; _Location
+;
+MSG_Gad_URLHelp
+
+; The URL to reach.
+;
+MSG_Gad_AddGroup
+
+; Add g_roup
+;
+MSG_Gad_AddGroupHelp
+
+; Add a new group.
+;
+MSG_Screen_Title
+
+; amrss (%s)
+;
+MSG_Win_TitleFeed
+
+; amrss (%s) - %s
+;
+MSG_Screen_TitleFeed
+
+; amrss (%s) - %s
+;
+MSG_CMenu_Configure
+
+; Settings...
+;
+MSG_CMenu_DeleteAll
+
+; Delete all
+;
+MSG_CMenu_Cut
+
+; Cut
+;
+MSG_CMenu_Copy
+
+; Copy
+;
+MSG_CMenu_Paste
+
+; Paste
+;
+MSG_CMenu_ViewMode_TextGfx
+
+; Icons and text
+;
+MSG_CMenu_ViewMode_Gfx
+
+; Icons only
+;
+MSG_CMenu_ViewMode_Text
+
+; Text only
+;
+MSG_CMenu_Borderless
+
+; Borderless
+;
+MSG_CMenu_Sunny
+
+; Highlight
+;
+MSG_CMenu_Raised
+
+; Raised
+;
+MSG_CMenu_AddGroup
+
+; Add group...
+;
+MSG_CMenu_AddFeed
+
+; Add feed...
+;
+MSG_CMenu_Edit
+
+; Edit...
+;
+MSG_CMenu_Link
+
+; Go to link
+;
+MSG_CMenu_DefWidthThis
+
+; Default Width: this
+;
+MSG_CMenu_DefWidthAll
+
+; Default Width: all
+;
+MSG_CMenu_DefOrderThis
+
+; Default Order: this
+;
+MSG_CMenu_DefOrderAll
+
+; Default Order: all
+;
+MSG_CMenu_CopyTitle
+
+; Copy title to clip
+;
+MSG_CMenu_CopyLink
+
+; Copy link to clip
+;
+MSG_CMenu_Browser
+
+; Open with OpenURL...
+;
+MSG_CMenu_SetAsDefault
+
+; Default feed
+;
+MSG_CMenu_Feed
+
+; Update
+;
+MSG_CMenu_Remove
+
+; Remove
+;
+MSG_CMenu_Editor
+
+; View source...
+;
+MSG_CMenu_Sort
+
+; Sort
+;
+MSG_CMenu_Validate
+
+; Validate
+;
+MSG_CMenu_OpenAll
+
+; Open all
+;
+MSG_CMenu_CloseAll
+
+; Close all
+;
+MSG_CMenu_AddGroupHere
+
+; Add group here...
+;
+MSG_CMenu_AddFeedHere
+
+; Add feed here...
+;
+MSG_CMenu_AddQuickEMail
+
+; Send a quick email
+;
+MSG_CMenu_Bookmark
+
+; Add to CManager
+;
+MSG_CMenu_DownloadFavIcon
+
+; Download favicon
+;
+MSG_CMenu_Title_Feed
+
+; Feed
+;
+MSG_CMenu_Title_Group
+
+; Group
+;
+MSG_CMenu_Title_List
+
+; List
+;
+MSG_CMenu_Title_New
+
+; New
+;
+MSG_CMenu_Title_TheBar
+
+; TheBar
+;
+MSG_CMenu_Title_HTML
+
+; HTML
+;
+MSG_CMenu_Title_Edit
+
+; Edit
+;
+MSG_CMenu_ImBrowser
+
+; Open image with OpenURL...
+;
+MSG_Prefs_Win_Title
+
+; amrss preferences
+;
+MSG_Prefs_Title_Options
+
+; Options
+;
+MSG_Prefs_Title_Locale
+
+; Locale
+;
+MSG_Prefs_Title_HTTP
+
+; HTTP
+;
+MSG_Prefs_Title_Bar
+
+; Buttons bar
+;
+MSG_Prefs_Title_NBar
+
+; Navigation bar
+;
+MSG_Prefs_Use
+
+; _Use
+;
+MSG_Prefs_UseHelp
+
+; Use preferences and close the window.
+;
+MSG_Prefs_Apply
+
+; _Apply
+;
+MSG_Prefs_ApplyHelp
+
+; Use preferences without closing the window.
+;
+MSG_Prefs_Cancel
+
+; _Cancel
+;
+MSG_Prefs_CancelHelp
+
+; Close the window.
+;
+MSG_Prefs_GroupDoubleClick
+
+; _On group double click
+;
+MSG_Prefs_GroupDoubleClickHelp
+
+; What to do on a double clicks on a feed.
+;
+MSG_Prefs_GroupDoubleClick_Nothing
+
+; Do nothing
+;
+MSG_Prefs_GroupDoubleClick_Edit
+
+; Edit
+;
+MSG_Prefs_GroupDoubleClick_Feed
+
+; Feed
+;
+MSG_Prefs_EntriesDoubleClick
+
+; O_n news double click
+;
+MSG_Prefs_EntriesDoubleClickHelp
+
+; What to do on a double clicks on a new.
+;
+MSG_Prefs_EntriesDoubleClick_Nothing
+
+; Do nothing
+;
+MSG_Prefs_EntriesDoubleClick_Browser
+
+; Open with OpenURL
+;
+MSG_Prefs_EntriesDoubleClick_GoToLink
+
+; Go to link
+;
+MSG_Prefs_DescrClick
+
+; On lin_k click
+;
+MSG_Prefs_DescrClickHelp
+
+; What to do on a clicks on a link.
+;
+MSG_Prefs_DescrClick_Nothing
+
+; Do nothing
+;
+MSG_Prefs_DescrClick_Browser
+
+; Open with OpenURL
+;
+MSG_Prefs_DescrClick_GoToLink
+
+; Go to link
+;
+MSG_Prefs_Editor
+
+; _Viewer
+;
+MSG_Prefs_EditorHelp
+
+; The command to use to view files.
+;
+MSG_Prefs_UserItem
+
+; U_ser item
+;
+MSG_Prefs_UserItemHelp
+
+; An item to add to the HTML context\nmenus. It will be enabled only on\nlinks.
+;
+MSG_Prefs_UserItemName
+
+; _Item name
+;
+MSG_Prefs_UserItemNameHelp
+
+; The name for the above item.
+;
+MSG_Prefs_NoListBar
+
+; _Don't use columns bars
+;
+MSG_Prefs_NoListBarHelp
+
+; If selected, columns bars are not shown.
+;
+MSG_Prefs_BoldTitles
+
+; _Bold list titles
+;
+MSG_Prefs_BoldTitlesHelp
+
+; If selected, list titles are rendered bold.
+;
+MSG_Prefs_SubstDate
+
+; Subs_titute \"today\", ...
+;
+MSG_Prefs_SubstDateHelp
+
+; Substitute \"today\", ... in dates.
+;
+MSG_Prefs_RightMouse
+
+; _Right mouse changes active
+;
+MSG_Prefs_RightMouseHelp
+
+; If selected, right mouse button\nchanges active entry.
+;
+MSG_Prefs_BoldGroups
+
+; Bo_ld groups
+;
+MSG_Prefs_BoldGroupsHelp
+
+; If selected, groups are rendered bold.
+;
+MSG_Prefs_Codeset
+
+; C_odeset
+;
+MSG_Prefs_CodesetHelp
+
+; The codeset to use.
+;
+MSG_Prefs_GMTOffset
+
+; _GMT Offset
+;
+MSG_Prefs_GMTOffsetHelp
+
+; Your offset from the Greenwich time.
+;
+MSG_Prefs_GetFromSystem
+
+; G_et from system
+;
+MSG_Prefs_GetFromSystemHelp
+
+; Try to obtain information from the system.
+;
+MSG_Prefs_Proxy
+
+; _Proxy
+;
+MSG_Prefs_ProxyHelp
+
+; An host address to use as proxy.
+;
+MSG_Prefs_ProxyPort
+
+; P_ort
+;
+MSG_Prefs_ProxyPortHelp
+
+; The port of the proxy.
+;
+MSG_Prefs_UseProxy
+
+; U_se proxy
+;
+MSG_Prefs_UseProxyHelp
+
+; If selected, the proxy is used.
+;
+MSG_Prefs_Agent
+
+; A_gent
+;
+MSG_Prefs_AgentHelp
+
+; The User-Agent string to use.
+;
+MSG_Prefs_BPos
+
+; _Bar position
+;
+MSG_Prefs_BPosHelp
+
+; Adjust the position of the buttons bar.
+;
+MSG_Prefs_BPos_Top
+
+; Top
+;
+MSG_Prefs_BPos_Bottom
+
+; Bottom
+;
+MSG_Prefs_BPos_Left
+
+; Left
+;
+MSG_Prefs_BPos_Right
+
+; Right
+;
+MSG_Prefs_BPos_InnerTop
+
+; Inner top
+;
+MSG_Prefs_BPos_InnerBottom
+
+; Inner bottom
+;
+MSG_Prefs_Layout
+
+; Bu_ttons position
+;
+MSG_Prefs_LayoutHelp
+
+; Adjust the position of the buttons.
+;
+MSG_Prefs_Layout_Up
+
+; Left (Top)
+;
+MSG_Prefs_Layout_Center
+
+; Center
+;
+MSG_Prefs_Layout_Down
+
+; Right (Down)
+;
+MSG_Prefs_LPos
+
+; _Label position
+;
+MSG_Prefs_LPosHelp
+
+; Adjust the position of the text\nfor \"Icons and text\" buttons.
+;
+MSG_Prefs_LPos_Bottom
+
+; Bottom
+;
+MSG_Prefs_LPos_Top
+
+; Top
+;
+MSG_Prefs_LPos_Right
+
+; Right
+;
+MSG_Prefs_LPos_Left
+
+; Left
+;
+MSG_Prefs_ViewMode
+
+; A_ppareance
+;
+MSG_Prefs_ViewModeHelp
+
+; Adjust the appearance of the buttons bar.
+;
+MSG_Prefs_ViewMode_TextGfx
+
+; Icons and text
+;
+MSG_Prefs_ViewMode_Text
+
+; Text only
+;
+MSG_Prefs_ViewMode_Gfx
+
+; Icons only
+;
+MSG_Prefs_Borderless
+
+; B_orderless
+;
+MSG_Prefs_BorderlessHelp
+
+; If selected, buttons are borderless.
+;
+MSG_Prefs_Sunny
+
+; _Highlight
+;
+MSG_Prefs_SunnyHelp
+
+; If selected, buttons, normally in black\nand white, are colored when the\nmouse is over them.
+;
+MSG_Prefs_Raised
+
+; _Raised
+;
+MSG_Prefs_RaisedHelp
+
+; If selected, buttons, normally frameless,\nare framed when the mouse is over them.
+;
+MSG_Prefs_Scaled
+
+; Scale_d
+;
+MSG_Prefs_ScaledHelp
+
+; If selected, buttons are scaled\naccording to MUI settings.
+;
+MSG_Prefs_Underscore
+
+; _Short cuts
+;
+MSG_Prefs_UnderscoreHelp
+
+; If selected, buttons use\nkeyboard short-cuts.
+;
+MSG_Prefs_Frame
+
+; Butto_ns bar frame
+;
+MSG_Prefs_FrameHelp
+
+; If selected, no frame is drawn\naround the buttons.
+;
+MSG_Prefs_BarSpacer
+
+; Bar spac_er
+;
+MSG_Prefs_BarSpacerHelp
+
+; If selected, a bar spacer is used\nas buttons separator.
+;
+MSG_Prefs_DragBar
+
+; Dra_ggable buttons bar
+;
+MSG_Prefs_DragBarHelp
+
+; If selected, no buttons dragbar\nis available.
+;
+MSG_Prefs_ShowFeedImage
+
+; Sho_w feeds images
+;
+MSG_Prefs_ShowFeedImageHelp
+
+; If selected, feeds images are download\nand shown.
+;
+MSG_Prefs_SobstituteWinChars
+
+; Sobstitut_e Windows chars
+;
+MSG_Prefs_SobstituteWinCharsHelp
+
+; If selected, some Windows charsets\ncodes are translated to Amiga ones.\nNote that changes will be applied\nonly at next local or remote news\nloading.
+;
+MSG_Prefs_UseFeedsListImages
+
+; Use _feeds and groups images
+;
+MSG_Prefs_UseFeedsListImagesHelp
+
+; If selected, feeds and groups images are used.
+;
+MSG_Prefs_UseDefaultGroupImage
+
+; Use default _group image
+;
+MSG_Prefs_UseDefaultGroupImageHelp
+
+; If selected, the default group image is\nused for groups with no image defined.
+;
+MSG_Prefs_MaxImageSize
+
+; _Max image size
+;
+MSG_Prefs_MaxImageSizeHelp
+
+; Max image width and height.
+;
+MSG_Prefs_ShowGroupNews
+
+; Show grou_ps news
+;
+MSG_Prefs_ShowGroupNewsHelp
+
+; If selected, when a group is activated\nits feeds news are shown.
+;
+MSG_Prefs_NTLoadImages
+
+; Don't _load images
+;
+MSG_Prefs_NTLoadImagesHelp
+
+; If selected, images are not load in\nHTML documents.
+;
+MSG_Prefs_UseHandMouse
+
+; Use _hand mouse
+;
+MSG_Prefs_UseHandMouseHelp
+
+; If selected, the hand mouse\nis used on links.
+;
+MSG_Prefs_Popph_File
+
+; File name
+;
+MSG_Prefs_Popph_Screen
+
+; Public screen name
+;
+MSG_Prefs_Popph_Link
+
+; Link
+;
+MSG_Group_LocalFeed
+
+; %s news read.
+;
+MSG_Group_NoLocalFeed
+
+; %s has no news.
+;
+MSG_Group_Welcome
+
+; Select a feed.
+;
+MSG_EditFeed_WinTitleEditFeed
+
+; Edit feed
+;
+MSG_EditFeed_WinTitleEditGroup
+
+; Edit group
+;
+MSG_EditFeed_WinTitleNewFeed
+
+; Edit new feed
+;
+MSG_EditFeed_WinTitleNewGroup
+
+; Edit new group
+;
+MSG_EditFeed_URL
+
+; U_RL
+;
+MSG_EditFeed_URLHelp
+
+; The URL of the feed.
+;
+MSG_EditFeed_Name
+
+; _Name
+;
+MSG_EditFeed_NameHelp
+
+; The name of the feed.
+;
+MSG_EditFeed_File
+
+; File
+;
+MSG_EditFeed_FileHelp
+
+; The file where are stored feed's news.
+;
+Msg_EditFeed_OK
+
+; _Use
+;
+Msg_EditFeed_OKHelp
+
+; Save changes.
+;
+Msg_EditFeed_Cancel
+
+; _Cancel
+;
+Msg_EditFeed_CancelHelp
+
+; Exit without saving.
+;
+MSG_EditFeed_Pic
+
+; _Image
+;
+MSG_EditFeed_PicHelp
+
+; A complete path to an image file\nto be used as entry image.
+;
+MSG_EditFeed_PicReqTitle
+
+; Select an image
+;
+MSG_EditFeed_ShowLink
+
+; _Show link
+;
+MSG_EditFeed_ShowLinkHelp
+
+; If selected, the link of the new is shown\nrather than the description contents.
+;
+MSG_EditFeed_Update
+
+; U_pdate
+;
+MSG_EditFeed_UpdateHelp
+
+; The feed is updated any this amount of minutes.
+;
+MSG_EditFeed_Update_Never
+
+; Never
+;
+MSG_EditFeed_Update_Min
+
+; \33c any %ld mins\40
+;
+MSG_Title_Headline
+
+; Headline
+;
+MSG_Title_Date
+
+; Date
+;
+MSG_Title_Subject
+
+; Subject
+;
+MSG_Title_Author
+
+; Author
+;
+MSG_SearchWin_Title
+
+; Search
+;
+MSG_SearchWin_Pattern
+
+; S_tring
+;
+MSG_SearchWin_PatternHelp
+
+; The string to search for.
+;
+MSG_SearchWin_Case
+
+; C_ase
+;
+MSG_SearchWin_CaseHelp
+
+; If selected, searching is case sensitive.
+;
+MSG_SearchWin_Welcome
+
+; Search news.
+;
+MSG_SearchWin_First
+
+; _Start
+;
+MSG_SearchWin_FirstHelp
+
+; Search first match.
+;
+MSG_SearchWin_Succ
+
+; S_ucc
+;
+MSG_SearchWin_SuccHelp
+
+; Search next match.
+;
+MSG_SearchWin_Back
+
+; _Back
+;
+MSG_SearchWin_BackHelp
+
+; Search previous match.
+;
+MSG_SearchWin_Cancel
+
+; _Cancel
+;
+MSG_SearchWin_CancelHelp
+
+; Close search window.
+;
+MSG_SearchWin_Searching
+
+; Searching...
+;
+MSG_SearchWin_Found
+
+; Found.
+;
+MSG_SearchWin_NotFound
+
+; Not found.
+;
+MSG_CM_Win_Title
+
+; amrss cm bookmarks
+;
+MSG_MiniMail_Win_Title
+
+; amrss mini mailer
+;
